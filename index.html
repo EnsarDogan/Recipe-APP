@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/6c0b54047a.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js" defer></script>
+    <title>Recipe App</title>
+</head>
+<body>
+    <header>
+        <div class="logo-mark">
+            <img src="src/logo.png" alt="logo">
+            <p>Easy To Cook</p>
+        </div>
+        <p class="description">Easy To Cook is a website that you can easily choose your menu for today and learn how to cook your meals <br><br> With this site you can get random meals, search a menu by name or filter meals by category and area! </p>
+    </header>
+    <main id="main">
+        <div class="search-container">
+            
+            <div class="search">
+                <p> <span> You can search meal by name </span><br> Just write the name of meal that you wanna cook! </p>
+                <div class="form-search">
+                    <input id="search-by-name" type="text" placeholder="Type name of the meal...">
+                </div>
+            </div>
+            <div class="search">
+                <p> <span> You can search meal by ingredient </span><br> Just write the name of main ingredient that you wanna use! </p>
+                <div class="form-search">
+                    <input id="search-by-main-ing" type="text" placeholder="Type the main ingredient">
+                </div>
+            </div>
+            <div class="search">
+                <p> <span> You can filter meal by category </span> <br> Just write the meal category that you wanna explore! </p>
+                <div class="form-search">
+                    <select name="category" id="select-category"></select>
+                </div>
+            </div>
+            <div class="search">
+                <p> <span> You can filter meal by country </span><br> Just write the name of cousine that you wanna explore! </p>
+                <div class="form-search">
+                    <select name="country" id="select-country"></select>
+                </div>
+            </div>
+           
+        </div>
+        
+        <div class="mealsList" id="mealsList">
+        </div>
+
+       
+       
+    </main>
+    <footer></footer>
+
+   
+</body>
+</html>
