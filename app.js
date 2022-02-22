@@ -199,7 +199,8 @@ function renderMeal(list) {
 }
 
 function createPopupAndShow(meal) {
-  document.body.innerHTML += `
+  var popup = document.createElement("div");
+  popup.innerHTML = `
   <div id="popup-container">
     <div id="popup">
       <a  id="close-popup">X</a>
@@ -220,6 +221,7 @@ function createPopupAndShow(meal) {
     </div>
   </div>
   `;
+  document.body.appendChild(popup);
   const ingList = document.querySelector("#list-of-ingredients");
   for (let i = 1; i < 21; i++) {
     const ingredientAndMeasures = document.createElement("li");
