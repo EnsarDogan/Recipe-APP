@@ -1,9 +1,16 @@
 # Recipe APP
 
-This app consume [TheMealDB API](https://www.themealdb.com/api.php) and present data in a form that provide some options as follows: searching, listing and showing details of recipes. This API provides me with some cool fetch options. 
+This app consume [TheMealDB API](https://www.themealdb.com/api.php) and present data in a form that provide some options as follows: searching, listing and showing details of recipes. This API provides some fetch options. 
 
-# Current Version
-Only functionality is implemented and the styling is left for the next version. Stay calm when you view the home page:) The styling will be cool on up-coming version.
+https://user-images.githubusercontent.com/84569220/156065601-04e98298-2d57-4cfc-9ded-156cd67645ce.mov
+
+# Project Demo
+https://ensardogan.github.io/Recipe-APP
+
+# Technologies
+HTML
+CSS
+JavaScript
 
 # Fuctionality
 1. Fetch a random recipe with a single click of button on the landing page.
